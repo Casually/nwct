@@ -14,6 +14,7 @@ public class Body {
     @ResponseBody
     public String body(@PathVariable("url") String url){
         System.out.println(url);
+
         return "<html><head><title>测试</title>" +
                 "<link rel='stylesheet' type='text/css' href='/ss.css'>" +
                 "</head><script src='/ss.js'></script>" +
